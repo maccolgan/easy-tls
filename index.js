@@ -117,7 +117,7 @@ async function initializeEasyTLS () {
   }
 
   acmeClient = new ACMEClient.Client({
-    directoryUrl: ACMEClient.directory.letsencrypt.staging,
+    directoryUrl: ACMEClient.directory.letsencrypt.production,
     accountKey
   })
 }
