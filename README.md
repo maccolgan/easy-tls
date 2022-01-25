@@ -11,8 +11,8 @@ This is a self-contained library that acquires and renews certificates for domai
 ### How
 
 ```shell
-npm i git+https://github.com/maccolgan/easy-tls.git#dfcca61d537c53786fa5474ce84b84bf6aa4b77c
-yarn add git+https://github.com/maccolgan/easy-tls.git#dfcca61d537c53786fa5474ce84b84bf6aa4b77c
+npm i https://github.com/maccolgan/easy-tls/archive/refs/tags/0.0.1.tar.gz
+yarn add https://github.com/maccolgan/easy-tls/archive/refs/tags/0.0.1.tar.gz
 ```
 
 ```javascript
