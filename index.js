@@ -76,7 +76,7 @@ function setupTimers (expiry, config) {
   if (expiry <= 0) {
     return func()
   } else if (isBeyondLimit) {
-    setTimeout(() => setupTimers(expiry, config), timeRemainingTillNextExpiry - isBeyondLimit)
+    setTimeout(() => setupTimers(expiry, config), timeRemainingTillNextExpiry - TIMER_LIMIT)
   } else {
     setTimeout(func, timeRemainingTillNextExpiry)
   }
